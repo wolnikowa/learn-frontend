@@ -1,0 +1,152 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #bbf1bb;
+}
+
+.content {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+td {
+  height: 170px;
+  width: 170px;
+  color: #a55656;
+  background-color: #90be65;
+  opacity: 1;
+  text-align: center;
+  font-size: 90px;
+}
+
+td:hover {
+  opacity: 0.70;
+}
+
+img {
+  height: 100px;
+}
+
+table {
+  margin: auto;
+  border: 3px solid #398139;
+}
+
+input {
+  position: absolute;
+  top: 85%;
+  right: 0%;
+  font-size: 35px;
+  background-color: rgba(165, 86, 86, 0.6);
+  color: white;
+  border-radius: 5px;
+  border: 2px double rgba(165, 86, 86, 0.8);
+  cursor: pointer;
+}
+
+input:hover {
+  font-size: 45px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  color: #c96868;
+  text-align: center;
+  -webkit-animation-name: title;
+          animation-name: title;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes title {
+  0% {
+    font-size: 60px;
+    line-height: 60px;
+    color: #90be65;
+  }
+  50% {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  100% {
+    font-size: 60px;
+    line-height: 60px;
+    color: #c96868;
+  }
+}
+
+@keyframes title {
+  0% {
+    font-size: 60px;
+    line-height: 60px;
+    color: #90be65;
+  }
+  50% {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  100% {
+    font-size: 60px;
+    line-height: 60px;
+    color: #c96868;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .content {
+    width: 430px;
+    margin: auto;
+  }
+  input {
+    top: 105%;
+    right: 28.5%;
+  }
+  td {
+    height: 140px;
+    width: 140px;
+  }
+  img {
+    height: 70px;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  @-webkit-keyframes title {
+    0% {
+      font-size: 50px;
+      line-height: 50px;
+    }
+    50% {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    100% {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+  @keyframes title {
+    0% {
+      font-size: 50px;
+      line-height: 50px;
+    }
+    50% {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    100% {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+  input:hover {
+    font-size: 35px;
+  }
+}
+/*# sourceMappingURL=XiO.css.map */
