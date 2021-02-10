@@ -1,0 +1,23 @@
+{
+  "name": "learnfront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolnikowa/learn-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolnikowa/learn-frontend/issues"
+  },
+  "homepage": "https://github.com/wolnikowa/learn-frontend#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

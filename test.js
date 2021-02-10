@@ -1,10 +1,12 @@
-var express = require('express');
+const express = require('express');
+const port=3000;
+const host='localhost';
+const app = express();
 
-var test = express();
+app.use('/', express.static('test'));
+app.use('/*',(reg,res) =>  res.sendrile(path.resolve('test/index.html')));
 
-test.use(express.static(__dirname));
-
-test.use(express.static('learnFront'));
-
-test.listen(3000);
+app.listen(port,host, ()=>{
+    console.log('START', port, host)
+});
 
