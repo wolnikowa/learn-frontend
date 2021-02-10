@@ -12,35 +12,28 @@ nav {
   z-index: 999999;
   border-bottom: 4px dashed white;
 }
-
 nav > div {
   width: 90%;
   margin: auto;
 }
-
 nav > div > a {
   text-decoration: none;
   color: black;
   font-size: 3rem;
   padding: 12px;
 }
-
 nav img {
   height: 30px;
 }
-
 nav img:hover {
   height: 33px;
 }
-
 nav a:hover {
   color: white;
 }
-
 nav .right {
   float: right;
 }
-
 nav .left {
   float: left;
 }
@@ -53,12 +46,10 @@ header {
   position: relative;
   margin-bottom: 100px;
 }
-
 header > img {
   width: 100%;
   height: 600px;
 }
-
 header > .bio {
   border-radius: 5%;
   width: 15%;
@@ -69,12 +60,10 @@ header > .bio {
   left: 2%;
   padding: 5px;
 }
-
 header > .bio > img {
   border-radius: 50%;
   width: 100%;
 }
-
 header > .description {
   padding: 8px;
   margin-right: 8px;
@@ -84,22 +73,17 @@ header > .description {
   color: white;
   background-color: rgba(255, 183, 180, 0.267);
 }
-
 header > .description > p {
   color: white;
   font-size: 3rem;
 }
-
 header > .follow {
   position: absolute;
   top: 30%;
   right: 7%;
-  -webkit-animation-name: insta;
-          animation-name: insta;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  animation-name: insta;
+  animation-duration: 15s;
 }
-
 header > .follow > p {
   float: left;
   font-size: 5rem;
@@ -107,20 +91,8 @@ header > .follow > p {
   background-color: rgba(255, 255, 255, 0.336);
   line-height: 70px;
 }
-
 header > .follow > img {
   float: left;
-}
-
-@-webkit-keyframes insta {
-  0% {
-    top: -10%;
-    right: 7%;
-  }
-  100% {
-    top: 30%;
-    right: 7%;
-  }
 }
 
 @keyframes insta {
@@ -133,21 +105,12 @@ header > .follow > img {
     right: 7%;
   }
 }
-
 .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .first > aside {
-  -webkit-box-flex: 45%;
-      -ms-flex: 45%;
-          flex: 45%;
+  flex: 45%;
 }
 
 .first .number1 {
@@ -155,66 +118,46 @@ header > .follow > img {
   width: 45%;
   float: left;
   margin-left: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
 .first .number1 > .picture {
-  -webkit-box-flex: 40%;
-      -ms-flex: 40%;
-          flex: 40%;
+  flex: 40%;
   margin: 20px;
   position: relative;
 }
-
 .first .number1 > .picture > img {
   width: 100%;
   height: 100%;
 }
-
 .first .number1 > .video {
-  -webkit-box-flex: 95%;
-      -ms-flex: 95%;
-          flex: 95%;
+  flex: 95%;
 }
-
 .first .number1 > .video > video {
   width: 100%;
   margin: 20px;
   margin-left: 0;
 }
-
 .first > .number2 {
   margin: 20px;
 }
-
 .first > .number2 > article {
   float: right;
   font-size: 10rem;
   color: white;
 }
-
 .first > .number2 > article h1 {
   text-align: center;
   font-size: 12rem;
   font-weight: bolder;
 }
-
 .first > .number2 > article p {
   margin-top: 25px;
 }
-
 .first > .number2 > article p > em {
   font-weight: bolder;
 }
-
 .first > .number2 > article p:hover {
   color: rgba(146, 60, 96, 0.678);
 }
@@ -223,54 +166,37 @@ header > .follow > img {
   width: 70%;
   margin: 0 auto;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
 .third h2 {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
+  flex: 100%;
   text-align: center;
   font-size: 12rem;
   font-weight: bolder;
 }
-
 .third .cont {
-  -webkit-box-flex: 45%;
-      -ms-flex: 45%;
-          flex: 45%;
+  flex: 45%;
   margin: 20px;
 }
-
 .third .cont > img {
   width: 100%;
 }
-
 .third .cont > div {
   margin-top: 5px;
   background-color: rgba(255, 255, 255, 0.336);
   width: 100%;
 }
-
 .third .cont > div > h3 {
   font-size: 4rem;
 }
-
 .third .cont > div > p {
   border-top: 2px dashed rgba(146, 60, 96, 0.678);
   padding: 3px;
   font-size: 3rem;
   font-weight: lighter;
 }
-
 .third .cont > div > p > a {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.514);
@@ -285,7 +211,6 @@ header > .follow > img {
   margin-bottom: 170px;
   position: relative;
 }
-
 .baw > h3 {
   text-align: center;
   font-size: 12rem;
@@ -293,21 +218,18 @@ header > .follow > img {
   margin-bottom: 23px;
   z-index: 9999;
 }
-
 .baw > .gallery {
   position: relative;
   width: 100%;
   height: 600px;
   margin: auto;
 }
-
 .baw > .gallery .one {
   width: 30%;
   position: absolute;
   top: 5%;
   right: 32%;
 }
-
 .baw > .gallery .two {
   width: 15%;
   position: absolute;
@@ -315,14 +237,12 @@ header > .follow > img {
   right: 80%;
   z-index: 6;
 }
-
 .baw > .gallery .three {
   width: 25%;
   position: absolute;
   top: 0%;
   right: 60%;
 }
-
 .baw > .gallery .four {
   width: 20%;
   position: absolute;
@@ -330,21 +250,18 @@ header > .follow > img {
   right: 83%;
   z-index: 5;
 }
-
 .baw > .gallery .five {
   width: 25%;
   position: absolute;
   top: -5%;
   right: -3%;
 }
-
 .baw > .gallery .six {
   width: 15%;
   position: absolute;
   top: 15%;
   right: 20%;
 }
-
 .baw > .gallery .seven {
   width: 10%;
   position: absolute;
@@ -352,14 +269,12 @@ header > .follow > img {
   right: 54%;
   z-index: 4;
 }
-
 .baw > .gallery .eight {
   width: 25%;
   position: absolute;
   top: 60%;
   right: 30%;
 }
-
 .baw > .frame1 {
   width: 15%;
   height: 20%;
@@ -369,7 +284,6 @@ header > .follow > img {
   top: 90%;
   z-index: 40;
 }
-
 .baw > .frame2 {
   width: 20%;
   height: 20%;
@@ -385,20 +299,17 @@ footer {
   border-top: 4px dashed white;
   width: 100%;
 }
-
 footer > div {
   width: 50%;
   margin: 20px auto;
   text-align: center;
 }
-
 footer > div > p {
   display: inline-block;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 10px;
 }
-
 footer > div > p:nth-of-type(2) {
   border-left: 2px solid rgba(0, 0, 0, 0.7);
   border-right: 2px solid rgba(0, 0, 0, 0.7);
@@ -407,13 +318,11 @@ footer > div > p:nth-of-type(2) {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 footer > div > span {
   font-size: 2.5rem;
   color: rgba(0, 0, 0, 0.719);
   text-align: center;
 }
-
 footer > div > a {
   margin-top: 20px;
   text-align: center;
@@ -429,14 +338,15 @@ footer > div > a {
   .baw > .frame1 {
     top: 70%;
   }
+
   .del3 {
     display: none;
   }
+
   footer > div {
     width: 70%;
   }
 }
-
 @media all and (max-width: 1200px) {
   .baw {
     margin-bottom: 40px;
@@ -447,20 +357,22 @@ footer > div > a {
   .baw > .frame1 {
     top: 60%;
   }
+
   .third .cont > div > h3 {
     font-size: 3rem;
   }
   .third .cont > div > p {
     font-size: 2.5rem;
   }
+
   .del2, .del3 {
     display: none;
   }
+
   .third {
     width: 90%;
   }
 }
-
 @media all and (max-width: 1050px) {
   .baw {
     margin-bottom: 10px;
@@ -471,18 +383,20 @@ footer > div > a {
   .baw > .gallery .seven {
     top: 40%;
   }
+
   footer > div {
     width: 90%;
   }
+
   .del1 {
     display: none;
   }
 }
-
 @media all and (max-width: 900px) {
   header .follow > p {
     font-size: 3rem;
   }
+
   .first .number2 {
     margin: 10px;
   }
@@ -492,12 +406,10 @@ footer > div > a {
   .first .number2 > article h1 {
     font-size: 10rem;
   }
+
   .third {
     width: 65%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .third h2 {
     font-size: 10rem;
@@ -509,6 +421,7 @@ footer > div > a {
     padding: 4px;
     font-size: 3rem;
   }
+
   .baw {
     position: static;
     margin-bottom: 20px;
@@ -521,20 +434,12 @@ footer > div > a {
     width: 100%;
     height: initial;
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .baw > .gallery .one, .baw > .gallery .two, .baw > .gallery .three, .baw > .gallery .four, .baw > .gallery .five, .baw > .gallery .six, .baw > .gallery .seven, .baw > .gallery .eight {
-    -webkit-box-flex: 4%;
-        -ms-flex: 4%;
-            flex: 4%;
+    flex: 4%;
     position: static;
     margin: 10px;
     border-radius: 10%;
@@ -546,24 +451,21 @@ footer > div > a {
     display: none;
   }
 }
-
 @media all and (max-width: 875px) {
   footer > div > p:nth-of-type(2) {
     border-right: 0px;
     border-left: 0px;
     padding-left: 10px;
   }
+
   .first .number1 > .picture {
-    -webkit-box-flex: 25%;
-        -ms-flex: 25%;
-            flex: 25%;
+    flex: 25%;
   }
   .first .number1 > .picture > img {
     width: 100%;
     height: 100%;
   }
 }
-
 @media all and (max-width: 750px) {
   header {
     margin-bottom: 50px;
@@ -581,20 +483,17 @@ footer > div > a {
   header > .description > p {
     font-size: 2rem;
   }
+
   .first {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .first > aside {
     width: 80%;
     margin: auto;
   }
+
   .first .number1 {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    order: 1;
     width: 70%;
     margin: auto;
   }
@@ -618,12 +517,14 @@ footer > div > a {
   .first > .number2 > article p.del2 {
     display: inline-block;
   }
+
   .third {
     width: 90%;
   }
   .third h2 {
     font-size: 7rem;
   }
+
   .baw {
     width: 100%;
     margin-top: 10px;
@@ -632,7 +533,6 @@ footer > div > a {
     font-size: 7rem;
   }
 }
-
 @media all and (max-width: 500px) {
   footer > div > p {
     font-size: 2.5rem;
@@ -640,6 +540,7 @@ footer > div > a {
   footer > div > span {
     font-size: 1.5rem;
   }
+
   nav {
     width: 100%;
     height: 45px;
@@ -656,6 +557,7 @@ footer > div > a {
   nav img:hover {
     height: 20px;
   }
+
   header {
     margin-bottom: 20px;
   }
@@ -675,6 +577,7 @@ footer > div > a {
   header > .follow {
     visibility: hidden;
   }
+
   .first .number1 > .picture {
     display: none;
   }
@@ -682,4 +585,5 @@ footer > div > a {
     display: none;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
