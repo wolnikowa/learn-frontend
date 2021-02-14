@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "compile": "sass mojaStrona-express/style.scss mojaStrona-express/style.css ",
+    "build": "webpack --config mojaStrona-express/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,16 @@
   },
   "homepage": "https://github.com/wolnikowa/learn-frontend#readme",
   "devDependencies": {
-    "express": "^4.17.1"
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "express": "^4.17.1",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   }
 }
